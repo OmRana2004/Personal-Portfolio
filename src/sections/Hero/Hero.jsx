@@ -53,7 +53,7 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
           </a>
         </span>
         <p>With a Pasion For Developing Modern React Web Apps For Commerical 
-          Bussiness.//Om
+          Bussiness.
           </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
