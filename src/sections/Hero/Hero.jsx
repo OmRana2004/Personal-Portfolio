@@ -19,13 +19,12 @@ const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
 const githubIcon = theme === 'light' ? githubLight : githubDark;
 const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
-
-  return (
+ return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img 
-        className = {styles.hero} 
-        src={heroImg} 
+       src={heroImg}
+       className = {styles.hero} 
         alt="Om Rana" />
         <img 
         className={styles.colorMode}
@@ -38,9 +37,7 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
         <h1>
           Om Rana
         </h1>
-        <h2>
-          Frontend Developer
-        </h2>
+        <h2>Frontend Developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -52,7 +49,8 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>With a Pasion For Developing Modern React Web Apps For Commerical 
+        <p className={styles.description}>
+          With a Pasion For Developing Modern React Web Apps For Commerical 
           Bussiness.
           </p>
         <a href={CV} download>
