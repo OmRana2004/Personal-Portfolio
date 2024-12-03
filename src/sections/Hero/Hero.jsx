@@ -19,8 +19,7 @@ const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
 const githubIcon = theme === 'light' ? githubLight : githubDark;
 const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
-
-  return (
+return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img 
@@ -52,7 +51,9 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
             <img src={linkedinIcon} alt="Linkedin icon" />
           </a>
         </span>
-        <p>With a Pasion For Developing Modern React Web Apps For Commerical Bussiness.</p>
+        <p>With a Pasion For Developing Modern React Web Apps For Commerical 
+          Bussiness.
+          </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
         </a>
