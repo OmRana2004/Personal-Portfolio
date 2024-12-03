@@ -19,7 +19,8 @@ const twitterIcon = theme === 'light' ? twitterLight : twitterDark;
 const githubIcon = theme === 'light' ? githubLight : githubDark;
 const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
-return (
+
+  return (
     <section id="hero" className={styles.container}>
       <div className={styles.colorModeContainer}>
         <img 
