@@ -1,6 +1,7 @@
 import styles from './ProjectsStyles.module.css';
 import OminoS from '../../assets/OminoS.png';
 import Location from '../../assets/Location.png';
+import ProjectCard from '../../common/ProjectCard';
 import WeatherApp from '../../assets/Weather.png';
 
 
