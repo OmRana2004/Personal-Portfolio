@@ -1,8 +1,9 @@
 import styles from './ProjectsStyles.module.css';
+import Trekify from '../../assets/Location.png';
 import OminoS from '../../assets/OminoS.png';
-import Location from '../../assets/Location.png';
-import ProjectCard from '../../common/ProjectCard';
 import WeatherApp from '../../assets/Weather.png';
+import ProjectCard from '../../common/ProjectCard';
+
 
 
 function Projects() {
@@ -10,6 +11,12 @@ function Projects() {
     <section id="projects" className={styles.container}>
         <h1 className="sectionTitle">Projects</h1> 
         <div className={styles.projectsContainer}>
+          <ProjectCard 
+          src={Trekify} 
+          link="https://github.com/OmRana2004/Trekify"
+          h3="Trekify"
+          p="Trekify is a Treking and Hiking App that helps you find the best trails and plan your next adventure."
+          />
           <ProjectCard 
           src={OminoS} 
           link="https://github.com/OmRana2004/Pizza-App"
@@ -21,12 +28,6 @@ function Projects() {
           link="https://weather-app-smoky-nine-16.vercel.app/"
           h3="Weather App"
           p="Weather App"
-          />
-          <ProjectCard 
-          src={Location} 
-          link="https://github.com/OmRana2004/REALTIME_TRACKER"
-          h3="Location"
-          p="Real Time Location Tracker"
           />
             </div> 
      </section>
