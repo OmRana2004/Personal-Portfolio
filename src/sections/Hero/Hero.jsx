@@ -63,5 +63,5 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 export default  Hero;   
 
 
-
+// This code defines a Hero component that displays a hero section with an image, name, title, social media links, and a resume download button. It uses the ThemeContext to toggle between light and dark themes for icons. The component is styled using CSS modules.
  
