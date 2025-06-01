@@ -34,10 +34,10 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
       </div>
       <div className={styles.info}>
-        <h1>
+        <h2>
           Om Rana
-        </h1>
-        <h2>Frontend Developer</h2>
+        </h2>
+        <h1>Full stack Web developer</h1>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -50,8 +50,7 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
           </a>
         </span>
         <p className={styles.description}>
-          With a Pasion For Developing Modern React Web Apps For Commerical 
-          Bussiness.
+         Hi, I’m OM a full stack developer and freelancer based in India.
           </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
