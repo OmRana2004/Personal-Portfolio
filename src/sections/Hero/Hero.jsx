@@ -62,7 +62,7 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
 export default  Hero;   
 
-// 
+
 
 
 
