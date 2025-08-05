@@ -34,10 +34,10 @@ const linkedinIcon = theme === 'light' ? linkedinLight : linkedinDark;
 
       </div>
       <div className={styles.info}>
-        <h2>
+        <h1>
           Om Rana
-        </h2>
-        <h1>Full stack Web developer</h1>
+        </h1>
+        <h2>Full stack Web developer</h2>
         <span>
           <a href="https://twitter.com/" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
